@@ -7,9 +7,9 @@ public class Names{
         long totalMilliseconds = System.currentTimeMillis();
 
         //total seconds
-        long totalsecond = totalMilliseconds / 1000
+        long totalsecond = totalMilliseconds / 1000;
 
-        
+        long  currentSecond = (int) (totalSeconds % 60);
     }
 
 }
